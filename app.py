@@ -34,10 +34,10 @@ X_test_vec = vectorizer.transform(X_test)
 # (requirement man gud ning sir carlo haha if i remember correctly)
 
 # Logistic Regression
-logreg = LogisticRegression(max_iter=2000)
-logreg.fit(X_train_vec, y_train)
-logreg_pred = logreg.predict(X_test_vec)
-logreg_acc = accuracy_score(y_test, logreg_pred)
+#logreg = LogisticRegression(max_iter=2000)
+#logreg.fit(X_train_vec, y_train)
+#logreg_pred = logreg.predict(X_test_vec)
+#logreg_acc = accuracy_score(y_test, logreg_pred)
 
 # SVM / Support Vector Machine
 svm = LinearSVC()
@@ -46,15 +46,15 @@ svm_pred = svm.predict(X_test_vec)
 svm_acc = accuracy_score(y_test, svm_pred)
 
 # Naive Bayes
-nb = MultinomialNB()
-nb.fit(X_train_vec, y_train)
-nb_pred = nb.predict(X_test_vec)
-nb_acc = accuracy_score(y_test, nb_pred)
+#nb = MultinomialNB()
+#nb.fit(X_train_vec, y_train)
+#nb_pred = nb.predict(X_test_vec)
+#nb_acc = accuracy_score(y_test, nb_pred)
 
 # Print accuracies
-print("Logistic Regression:", logreg_acc)
-print("Linear SVM:", svm_acc)
-print("Naive Bayes:", nb_acc)
+#print("Logistic Regression:", logreg_acc)
+#print("Linear SVM:", svm_acc)
+#print("Naive Bayes:", nb_acc)
 
 # we choose SVM as the best model based on accuracy
 
