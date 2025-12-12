@@ -1,12 +1,12 @@
-#*** Complaint Classification System:
+Complaint Classification System
 
 A machine learning pipeline for automatically classifying consumer complaints into predefined categories using text classification techniques.
 
-###**📋 Project Overview**
+📋 Project Overview
 
 This project implements a text classification system that can categorize consumer complaints (e.g., billing issues, service problems, product defects) using natural language processing and machine learning algorithms. The system compares multiple classification models to identify the best performer for the task.
 
-###**🚀 Features**
+🚀 Features
 
 Text Preprocessing: Automatic removal of stop words and TF-IDF vectorization
 
@@ -18,17 +18,17 @@ Model Persistence: Saves trained models for deployment
 
 Reproducible Results: Fixed random seed for consistent performance
 
-###**🏗️ Model Architecture**
+🏗️ Model Architecture
 
 The system implements and compares three classification algorithms:
 
-Linear Support Vector Machine (SVM) - Best performing model
+Linear Support Vector Machine (SVM) – Best performing model
 
-Multinomial Naive Bayes - Probabilistic classifier
+Multinomial Naive Bayes – Probabilistic classifier
 
-Logistic Regression - Currently commented out in the code
+Logistic Regression – Currently commented out in the code
 
-###**📊 Dataset**
+📊 Dataset
 
 The model expects a CSV file named complaints.csv with two columns:
 
@@ -36,7 +36,7 @@ text: The complaint description (string)
 
 label: The complaint category (string or integer)
 
-###**📈 Performance Metrics**
+📈 Performance Metrics
 
 The model evaluation includes:
 
@@ -50,7 +50,7 @@ F1-Score: Harmonic mean of precision and recall
 
 Confusion Matrix: Visual representation of classification performance
 
-###**🧪 Model Selection**
+🧪 Model Selection
 
 Based on typical performance characteristics:
 
@@ -60,9 +60,9 @@ Naive Bayes: Fast training, works well with text data
 
 Logistic Regression: Good baseline, interpretable coefficients
 
-The current implementation selects SVM as the primary model based on accuracy.
+➡️ The current implementation selects SVM as the primary model based on accuracy.
 
-###**🔄 Workflow**
+🔄 Workflow
 
 Data Preparation: Load and split complaint data
 
@@ -76,18 +76,11 @@ Selection: Choose best performing model
 
 Persistence: Save model for deployment
 
-###**📝 Requirements**
-
+📝 Requirements
 Python 3.7+
-
 pandas >= 1.0
-
 numpy >= 1.18
-
 scikit-learn >= 0.24
-
 seaborn >= 0.11
-
 matplotlib >= 3.3
-
 joblib >= 1.0
