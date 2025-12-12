@@ -1,4 +1,6 @@
-Complaint Classification System
+<p align="left"> <!-- Python version --> <img src="https://img.shields.io/badge/Python-3.7%2B-blue?logo=python&logoColor=white" /> <!-- Build status (dummy until you connect CI) --> <img src="https://img.shields.io/badge/Build-Passing-brightgreen?logo=githubactions&logoColor=white" /> <!-- License --> <img src="https://img.shields.io/badge/License-MIT-yellow?logo=opensourceinitiative&logoColor=white" /> <!-- Stars --> <img src="https://img.shields.io/github/stars/yourusername/yourrepo?style=social" /> <!-- Issues --> <img src="https://img.shields.io/github/issues/yourusername/yourrepo" /> <!-- PRs --> <img src="https://img.shields.io/github/issues-pr/yourusername/yourrepo?color=blue" /> </p>
+
+Complaint Classification System:
 A machine learning pipeline for automatically classifying consumer complaints into predefined categories using text classification techniques.
 
 📋 Project Overview
